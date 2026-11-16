@@ -1,0 +1,51 @@
+﻿modelo,tipo,oficial,accuracy,precision,recall,f1,acc_textos,convergio,iteraciones,vectores_soporte,semilla
+Naive Bayes,modelo,True,1.0,1.0,1.0,1.0,1.0,True,,,0
+SVM lineal (liblinear),modelo,True,1.0,1.0,1.0,1.0,1.0,True,10.0,,0
+SVM lineal (libsvm),modelo,True,1.0,1.0,1.0,1.0,1.0,True,26.0,25.0,0
+Regresión Logística,modelo,True,1.0,1.0,1.0,1.0,1.0,True,15.0,,0
+"SVM lineal (liblinear), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,10.0,,0
+"SVM lineal (libsvm), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,48.0,82.0,0
+"Regresión Logística, con L2",modelo,False,1.0,1.0,1.0,1.0,1.0,True,10.0,,0
+Azar,referencia,False,0.3765432098765432,0.3773234843085164,0.3752380952380953,0.3745696569225981,0.3714717091187679,,,,0
+Clase mayoritaria,referencia,False,0.345679012345679,0.11522633744855966,0.3333333333333333,0.17125382262996944,0.3333333333333333,,,,0
+Búsqueda exacta,referencia,False,1.0,1.0,1.0,1.0,1.0,,,,0
+Naive Bayes,modelo,True,1.0,1.0,1.0,1.0,1.0,True,,,1
+SVM lineal (liblinear),modelo,True,1.0,1.0,1.0,1.0,1.0,True,12.0,,1
+SVM lineal (libsvm),modelo,True,1.0,1.0,1.0,1.0,1.0,True,26.0,25.0,1
+Regresión Logística,modelo,True,1.0,1.0,1.0,1.0,1.0,True,15.0,,1
+"SVM lineal (liblinear), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,10.0,,1
+"SVM lineal (libsvm), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,46.0,81.0,1
+"Regresión Logística, con L2",modelo,False,1.0,1.0,1.0,1.0,1.0,True,10.0,,1
+Azar,referencia,False,0.3148148148148148,0.31417624521072796,0.31357142857142856,0.31380534670008353,0.3106689606689607,,,,1
+Clase mayoritaria,referencia,False,0.345679012345679,0.11522633744855966,0.3333333333333333,0.17125382262996944,0.3333333333333333,,,,1
+Búsqueda exacta,referencia,False,1.0,1.0,1.0,1.0,1.0,,,,1
+Naive Bayes,modelo,True,1.0,1.0,1.0,1.0,1.0,True,,,2
+SVM lineal (liblinear),modelo,True,1.0,1.0,1.0,1.0,1.0,True,11.0,,2
+SVM lineal (libsvm),modelo,True,1.0,1.0,1.0,1.0,1.0,True,29.0,25.0,2
+Regresión Logística,modelo,True,1.0,1.0,1.0,1.0,1.0,True,15.0,,2
+"SVM lineal (liblinear), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,9.0,,2
+"SVM lineal (libsvm), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,46.0,80.0,2
+"Regresión Logística, con L2",modelo,False,1.0,1.0,1.0,1.0,1.0,True,9.0,,2
+Azar,referencia,False,0.3148148148148148,0.3162691524697311,0.3164285714285714,0.314714820622068,0.3154013470189941,,,,2
+Clase mayoritaria,referencia,False,0.345679012345679,0.11522633744855966,0.3333333333333333,0.17125382262996944,0.3333333333333333,,,,2
+Búsqueda exacta,referencia,False,1.0,1.0,1.0,1.0,1.0,,,,2
+Naive Bayes,modelo,True,1.0,1.0,1.0,1.0,1.0,True,,,3
+SVM lineal (liblinear),modelo,True,1.0,1.0,1.0,1.0,1.0,True,10.0,,3
+SVM lineal (libsvm),modelo,True,1.0,1.0,1.0,1.0,1.0,True,28.0,25.0,3
+Regresión Logística,modelo,True,1.0,1.0,1.0,1.0,1.0,True,16.0,,3
+"SVM lineal (liblinear), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,9.0,,3
+"SVM lineal (libsvm), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,45.0,80.0,3
+"Regresión Logística, con L2",modelo,False,1.0,1.0,1.0,1.0,1.0,True,10.0,,3
+Azar,referencia,False,0.30864197530864196,0.31441153697251256,0.30833333333333335,0.3081539987789988,0.3137177637177638,,,,3
+Clase mayoritaria,referencia,False,0.345679012345679,0.11522633744855966,0.3333333333333333,0.17125382262996944,0.3333333333333333,,,,3
+Búsqueda exacta,referencia,False,1.0,1.0,1.0,1.0,1.0,,,,3
+Naive Bayes,modelo,True,1.0,1.0,1.0,1.0,1.0,True,,,4
+SVM lineal (liblinear),modelo,True,1.0,1.0,1.0,1.0,1.0,True,12.0,,4
+SVM lineal (libsvm),modelo,True,1.0,1.0,1.0,1.0,1.0,True,29.0,25.0,4
+Regresión Logística,modelo,True,1.0,1.0,1.0,1.0,1.0,True,13.0,,4
+"SVM lineal (liblinear), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,10.0,,4
+"SVM lineal (libsvm), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,47.0,82.0,4
+"Regresión Logística, con L2",modelo,False,1.0,1.0,1.0,1.0,1.0,True,11.0,,4
+Azar,referencia,False,0.2839506172839506,0.2858347640131321,0.28523809523809524,0.2838154576472333,0.28451521245638894,,,,4
+Clase mayoritaria,referencia,False,0.345679012345679,0.11522633744855966,0.3333333333333333,0.17125382262996944,0.3333333333333333,,,,4
+Búsqueda exacta,referencia,False,1.0,1.0,1.0,1.0,1.0,,,,4

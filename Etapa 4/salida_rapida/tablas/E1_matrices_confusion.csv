@@ -1,0 +1,91 @@
+﻿modelo,clase_real,clase_predicha,n
+Naive Bayes,positive,positive,56
+Naive Bayes,positive,neutral,0
+Naive Bayes,positive,negative,0
+Naive Bayes,neutral,positive,0
+Naive Bayes,neutral,neutral,56
+Naive Bayes,neutral,negative,0
+Naive Bayes,negative,positive,0
+Naive Bayes,negative,neutral,0
+Naive Bayes,negative,negative,50
+SVM lineal (liblinear),positive,positive,56
+SVM lineal (liblinear),positive,neutral,0
+SVM lineal (liblinear),positive,negative,0
+SVM lineal (liblinear),neutral,positive,0
+SVM lineal (liblinear),neutral,neutral,56
+SVM lineal (liblinear),neutral,negative,0
+SVM lineal (liblinear),negative,positive,0
+SVM lineal (liblinear),negative,neutral,0
+SVM lineal (liblinear),negative,negative,50
+SVM lineal (libsvm),positive,positive,56
+SVM lineal (libsvm),positive,neutral,0
+SVM lineal (libsvm),positive,negative,0
+SVM lineal (libsvm),neutral,positive,0
+SVM lineal (libsvm),neutral,neutral,56
+SVM lineal (libsvm),neutral,negative,0
+SVM lineal (libsvm),negative,positive,0
+SVM lineal (libsvm),negative,neutral,0
+SVM lineal (libsvm),negative,negative,50
+Regresión Logística,positive,positive,56
+Regresión Logística,positive,neutral,0
+Regresión Logística,positive,negative,0
+Regresión Logística,neutral,positive,0
+Regresión Logística,neutral,neutral,56
+Regresión Logística,neutral,negative,0
+Regresión Logística,negative,positive,0
+Regresión Logística,negative,neutral,0
+Regresión Logística,negative,negative,50
+"SVM lineal (liblinear), sin normalizar",positive,positive,56
+"SVM lineal (liblinear), sin normalizar",positive,neutral,0
+"SVM lineal (liblinear), sin normalizar",positive,negative,0
+"SVM lineal (liblinear), sin normalizar",neutral,positive,0
+"SVM lineal (liblinear), sin normalizar",neutral,neutral,56
+"SVM lineal (liblinear), sin normalizar",neutral,negative,0
+"SVM lineal (liblinear), sin normalizar",negative,positive,0
+"SVM lineal (liblinear), sin normalizar",negative,neutral,0
+"SVM lineal (liblinear), sin normalizar",negative,negative,50
+"SVM lineal (libsvm), sin normalizar",positive,positive,56
+"SVM lineal (libsvm), sin normalizar",positive,neutral,0
+"SVM lineal (libsvm), sin normalizar",positive,negative,0
+"SVM lineal (libsvm), sin normalizar",neutral,positive,0
+"SVM lineal (libsvm), sin normalizar",neutral,neutral,56
+"SVM lineal (libsvm), sin normalizar",neutral,negative,0
+"SVM lineal (libsvm), sin normalizar",negative,positive,0
+"SVM lineal (libsvm), sin normalizar",negative,neutral,0
+"SVM lineal (libsvm), sin normalizar",negative,negative,50
+"Regresión Logística, con L2",positive,positive,56
+"Regresión Logística, con L2",positive,neutral,0
+"Regresión Logística, con L2",positive,negative,0
+"Regresión Logística, con L2",neutral,positive,0
+"Regresión Logística, con L2",neutral,neutral,56
+"Regresión Logística, con L2",neutral,negative,0
+"Regresión Logística, con L2",negative,positive,0
+"Regresión Logística, con L2",negative,neutral,0
+"Regresión Logística, con L2",negative,negative,50
+Azar,positive,positive,13
+Azar,positive,neutral,15
+Azar,positive,negative,28
+Azar,neutral,positive,24
+Azar,neutral,neutral,17
+Azar,neutral,negative,15
+Azar,negative,positive,15
+Azar,negative,neutral,15
+Azar,negative,negative,20
+Clase mayoritaria,positive,positive,56
+Clase mayoritaria,positive,neutral,0
+Clase mayoritaria,positive,negative,0
+Clase mayoritaria,neutral,positive,56
+Clase mayoritaria,neutral,neutral,0
+Clase mayoritaria,neutral,negative,0
+Clase mayoritaria,negative,positive,50
+Clase mayoritaria,negative,neutral,0
+Clase mayoritaria,negative,negative,0
+Búsqueda exacta,positive,positive,56
+Búsqueda exacta,positive,neutral,0
+Búsqueda exacta,positive,negative,0
+Búsqueda exacta,neutral,positive,0
+Búsqueda exacta,neutral,neutral,56
+Búsqueda exacta,neutral,negative,0
+Búsqueda exacta,negative,positive,0
+Búsqueda exacta,negative,neutral,0
+Búsqueda exacta,negative,negative,50

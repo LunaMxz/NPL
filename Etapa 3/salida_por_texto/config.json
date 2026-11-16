@@ -1,0 +1,17 @@
+{
+  "fuente": "https://github.com/mayank408/TFIDF (TFIDF.ipynb)",
+  "TF": "n(t,d) / len(bow_d)",
+  "IDF": "log10(N / df(t))",
+  "TFIDF": "TF * IDF",
+  "normalizar": false,
+  "ngramas": 2,
+  "test_size": 0.2,
+  "particion": "por-texto",
+  "seed": 42,
+  "n_train": 640,
+  "n_test": 167,
+  "textos_distintos_train": 12,
+  "textos_distintos_test": 3,
+  "textos_compartidos_train_test": 0,
+  "tamano_vocabulario": 61
+}

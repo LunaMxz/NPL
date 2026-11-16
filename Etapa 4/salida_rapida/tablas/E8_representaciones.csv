@@ -1,0 +1,25 @@
+﻿representacion,esquema,modelo,accuracy_media,f1_media,f1_sd,vectores_nulos,terminos
+TF-IDF del repositorio (palabras 1-2),partición oficial,Naive Bayes,1.0,1.0,,0.0,75.0
+TF-IDF del repositorio (palabras 1-2),partición oficial,SVM lineal (liblinear),1.0,1.0,,0.0,75.0
+TF-IDF del repositorio (palabras 1-2),partición oficial,SVM lineal (libsvm),1.0,1.0,,0.0,75.0
+TF-IDF del repositorio (palabras 1-2),partición oficial,Regresión Logística,1.0,1.0,,0.0,75.0
+TF-IDF del repositorio (palabras 1-2),grupos de textos,Naive Bayes,0.27137546468401486,0.20078900782831632,0.055943233713066524,322.0,
+TF-IDF del repositorio (palabras 1-2),grupos de textos,SVM lineal (liblinear),0.22428748451053285,0.19740399041699086,0.03139944757912131,322.0,
+TF-IDF del repositorio (palabras 1-2),grupos de textos,SVM lineal (libsvm),0.2589838909541512,0.2234004468482398,0.012131015792378144,322.0,
+TF-IDF del repositorio (palabras 1-2),grupos de textos,Regresión Logística,0.3700950020652623,0.26805105559076053,0.020742315278343318,322.0,
+TF-IDF de scikit-learn (palabras 1-2),partición oficial,Naive Bayes,1.0,1.0,,0.0,75.0
+TF-IDF de scikit-learn (palabras 1-2),partición oficial,SVM lineal (liblinear),1.0,1.0,,0.0,75.0
+TF-IDF de scikit-learn (palabras 1-2),partición oficial,SVM lineal (libsvm),1.0,1.0,,0.0,75.0
+TF-IDF de scikit-learn (palabras 1-2),partición oficial,Regresión Logística,1.0,1.0,,0.0,75.0
+TF-IDF de scikit-learn (palabras 1-2),grupos de textos,Naive Bayes,0.27137546468401486,0.20078900782831632,0.055943233713066524,322.0,
+TF-IDF de scikit-learn (palabras 1-2),grupos de textos,SVM lineal (liblinear),0.22428748451053285,0.19632022884980319,0.029633505063148376,322.0,
+TF-IDF de scikit-learn (palabras 1-2),grupos de textos,SVM lineal (libsvm),0.2589838909541512,0.2234004468482398,0.012131015792378144,322.0,
+TF-IDF de scikit-learn (palabras 1-2),grupos de textos,Regresión Logística,0.27757125154894674,0.2351525496569915,0.005859439910749498,322.0,
+TF-IDF de scikit-learn (caracteres 2-5),partición oficial,Naive Bayes,1.0,1.0,,0.0,998.0
+TF-IDF de scikit-learn (caracteres 2-5),partición oficial,SVM lineal (liblinear),1.0,1.0,,0.0,998.0
+TF-IDF de scikit-learn (caracteres 2-5),partición oficial,SVM lineal (libsvm),1.0,1.0,,0.0,998.0
+TF-IDF de scikit-learn (caracteres 2-5),partición oficial,Regresión Logística,1.0,1.0,,0.0,998.0
+TF-IDF de scikit-learn (caracteres 2-5),grupos de textos,Naive Bayes,0.2932672449401074,0.18435272480506118,0.034425035803500946,0.0,
+TF-IDF de scikit-learn (caracteres 2-5),grupos de textos,SVM lineal (liblinear),0.24411400247831472,0.16726525124436528,0.015196786124913085,0.0,
+TF-IDF de scikit-learn (caracteres 2-5),grupos de textos,SVM lineal (libsvm),0.26765799256505574,0.18408799001927276,0.006971608895428766,0.0,
+TF-IDF de scikit-learn (caracteres 2-5),grupos de textos,Regresión Logística,0.24411400247831472,0.16726525124436528,0.015196786124913085,0.0,

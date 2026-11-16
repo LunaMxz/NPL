@@ -1,0 +1,8 @@
+﻿modelo,ajustes,todos_convergieron,iteraciones_media,iteraciones_min,iteraciones_max,vectores_soporte_media,max_iter_permitido,tolerancia
+Naive Bayes,5,True,,,,,1000,0.0001
+SVM lineal (liblinear),5,True,11.0,10.0,12.0,,1000,0.0001
+SVM lineal (libsvm),5,True,27.6,26.0,29.0,25.0,1000,0.0001
+Regresión Logística,5,True,14.8,13.0,16.0,,1000,0.0001
+"SVM lineal (liblinear), sin normalizar",5,True,9.6,9.0,10.0,,1000,0.0001
+"SVM lineal (libsvm), sin normalizar",5,True,46.4,45.0,48.0,81.0,1000,0.0001
+"Regresión Logística, con L2",5,True,10.0,9.0,11.0,,1000,0.0001

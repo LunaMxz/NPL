@@ -1,0 +1,13 @@
+{
+  "modelos": [
+    "Naive Bayes",
+    "SVM lineal (liblinear)",
+    "SVM lineal (libsvm)",
+    "Regresión Logística"
+  ],
+  "clases": [
+    "positive",
+    "neutral",
+    "negative"
+  ]
+}

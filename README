@@ -1,0 +1,364 @@
+# INVESTIGACION NLP: preprocesamiento de comentarios académicos
+
+Pipeline reproducible para preparar el corpus **Feedback training** (comentarios de estudiantes sobre cursos, con etiqueta de sentimiento) antes de la vectorización y el entrenamiento de clasificadores.
+
+Universidad Autónoma de Coahuila, Facultad de Sistemas.
+
+Este documento explica cómo ejecutar las **Etapas 1 y 2**. La Etapa 3 (vectorización TF-IDF) se documentará en una versión posterior.
+
+## Contenido
+
+1. [Descripción general](#1-descripción-general)
+2. [Estructura del repositorio](#2-estructura-del-repositorio)
+3. [Requisitos e instalación](#3-requisitos-e-instalación)
+4. [Etapa 1: Limpieza de datos](#4-etapa-1-limpieza-de-datos)
+5. [Etapa 2: Preprocesamiento lingüístico](#5-etapa-2-preprocesamiento-lingüístico)
+6. [Parámetros ajustables](#6-parámetros-ajustables)
+7. [Reproducibilidad](#7-reproducibilidad)
+8. [Limitaciones conocidas](#8-limitaciones-conocidas)
+9. [Solución de problemas](#9-solución-de-problemas)
+
+---
+
+## 1. Descripción general
+
+| Etapa | Carpeta | Entrada | Salida principal |
+|---|---|---|---|
+| 1. Limpieza de datos | `Etapa 1/` | `Feedback_Training.csv` | `salida_pipeline/feedback_training_limpio.csv` |
+| 2. Preprocesamiento lingüístico | `Etapa 2/` | `feedback_training_limpio.csv` | `salida_etapa2/feedback_training_preprocesado.csv` |
+| 3. Vectorización TF-IDF | `Etapa 3/` | `feedback_training_preprocesado.csv` | *(se documenta después)* |
+
+Cada etapa es independiente y se ejecuta desde su propia carpeta. La salida de una etapa es la entrada de la siguiente.
+
+### Qué hace la Etapa 1
+
+1. Lee el archivo crudo detectando delimitador y codificación; separa las filas mal formadas.
+2. Corrige errores de codificación (*mojibake*) con `ftfy`.
+3. Normaliza la etiqueta de sentimiento y el nombre de la materia contra un catálogo.
+4. Conserva solo las **19 materias académicas** del catálogo; excluye las entidades no académicas (videojuegos y empresas).
+5. Elimina duplicados exactos.
+6. Limpia el texto: quita URLs, tokens de modelo (`[UNK]`, `<unk>`), menciones rotas, puntuación repetida y espacios sobrantes.
+7. Detecta casi-duplicados dentro de cada `id` (similitud de texto ≥ 85 %, con `rapidfuzz`).
+8. Descarta comentarios vacíos o de bajo contenido (menos de 2 palabras alfabéticas).
+9. Calcula estadísticas descriptivas y diagnostica la diversidad de textos.
+
+### Qué hace la Etapa 2
+
+Convierte `comentario_limpio` en `comentario_procesado` con spaCy (`en_core_web_sm`):
+
+1. Tokenización y **lematización**.
+2. Minúsculas.
+3. Solo tokens alfabéticos (se descartan puntuación y números).
+4. Eliminación de **stopwords**, conservando las **negaciones** (`no`, `not`, `never`, `nor`, `none`, `neither`, `nothing`, `nobody`, `nowhere`, `cannot`), porque invierten la polaridad.
+5. Descarte de comentarios que queden sin términos.
+
+Ejemplos:
+
+| Original | Procesado |
+|---|---|
+| The instructor skipped important topics. | `instructor skip important topic` |
+| Loved the assignments! Very interactive. | `love assignment interactive` |
+| Very practical and easy to follow. | `practical easy follow` |
+
+---
+
+## 2. Estructura del repositorio
+
+```
+<raíz del repositorio>/
+├── Etapa 1/
+│   ├── pipeline.py              # script que se ejecuta
+│   ├── config.py                # parámetros y catálogos
+│   ├── io_datos.py              # lectura del archivo crudo
+│   ├── limpieza.py              # funciones de limpieza
+│   ├── estadisticas.py          # estadísticas descriptivas
+│   └── Feedback_Training.csv    # dataset original (no incluido, ver .gitignore)
+├── Etapa 2/
+│   ├── pipeline.py              # script que se ejecuta
+│   ├── config.py                # modelo, negaciones y parámetros
+│   ├── preprocesamiento_nlp.py  # lematización y stopwords
+│   └── pruebas_preprocesamiento.py
+├── Etapa 3/                     # en desarrollo
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+> `Etapa 1/` y `Etapa 2/` contienen un `pipeline.py` y un `config.py` **distintos**. Cada etapa debe ejecutarse desde su propia carpeta.
+> Los nombres de carpeta llevan espacio, así que **van siempre entre comillas** en la terminal.
+
+---
+
+## 3. Requisitos e instalación
+
+**Software:** Python 3 con `pip`.
+
+**Dependencias** (`requirements.txt`):
+
+```
+pandas
+ftfy
+rapidfuzz
+spacy>=3.7
+```
+
+### Paso 1. Crear y activar un entorno virtual
+
+Un entorno virtual es una carpeta (`.venv`) con sus propias copias de las librerías, para no mezclarlas con otros proyectos. Desde la raíz del repositorio:
+
+```
+python -m venv .venv
+```
+
+Actívalo según tu sistema:
+
+| Sistema / terminal | Comando |
+|---|---|
+| Windows, Git Bash | `source .venv/Scripts/activate` |
+| Windows, PowerShell | `.venv\Scripts\Activate.ps1` |
+| Mac / Linux | `source .venv/bin/activate` |
+
+Sabrás que está activo porque el prompt empieza con `(.venv)`. Debes activarlo **cada vez que abras una terminal nueva**.
+
+### Paso 2. Instalar las dependencias
+
+```
+pip install -r requirements.txt
+```
+
+### Paso 3. Descargar el modelo de spaCy (una sola vez)
+
+```
+python -m spacy download en_core_web_sm
+```
+
+### Paso 4. Colocar el dataset
+
+Copia `Feedback_Training.csv` dentro de la carpeta `Etapa 1/`. El archivo debe tener cuatro columnas, sin encabezado y en este orden: `id`, `materia`, `sentimiento`, `comentario`.
+
+---
+
+## 4. Etapa 1: Limpieza de datos
+
+### Ejecución
+
+```
+cd "Etapa 1"
+python pipeline.py --input Feedback_Training.csv --outdir ./salida_pipeline
+```
+
+| Argumento | Por defecto | Descripción |
+|---|---|---|
+| `--input` | `Feedback_Training.csv` | Archivo crudo |
+| `--outdir` | `./salida_pipeline` | Carpeta de salida |
+
+### Archivos generados en `salida_pipeline/`
+
+| Archivo | Contenido |
+|---|---|
+| `feedback_training_limpio.csv` | Corpus limpio, **entrada de la Etapa 2** |
+| `reporte_casi_duplicados.csv` | Filas descartadas por ser casi-duplicados |
+| `materias_no_academicas_excluidas.csv` | Materias excluidas y número de filas |
+| `filas_mal_formadas.txt` | Líneas que no pudieron leerse |
+| `estadisticas_etapa1.json` | Resumen: total, longitud, clases, diversidad de textos |
+| `estadisticas_por_materia.csv` | Comentarios por materia y por clase |
+| `textos_repetidos.csv` | Textos distintos y cuántas veces se repite cada uno |
+
+`feedback_training_limpio.csv` tiene ocho columnas: `id`, `materia`, `sentimiento`, `comentario`, `sentimiento_original`, `tiene_token_unk`, `comentario_limpio`, `n_tokens`.
+
+### Ejecutar solo las estadísticas
+
+Si ya tienes la salida limpia, `estadisticas.py` se puede ejecutar solo, sin repetir toda la limpieza:
+
+```
+python estadisticas.py --input salida_pipeline/feedback_training_limpio.csv --outdir salida_pipeline
+```
+
+### Verificación
+
+**1. Archivos.** Debe haber siete:
+
+```
+ls salida_pipeline
+```
+
+**2. Número de filas y columnas:**
+
+```
+python -c "import pandas as pd; d=pd.read_csv('salida_pipeline/feedback_training_limpio.csv'); print(len(d)); print(list(d.columns))"
+```
+
+**3. Diversidad de textos:**
+
+```
+python -c "import json; d=json.load(open('salida_pipeline/estadisticas_etapa1.json')); print(d['diversidad_textual']['textos_distintos'], d['diversidad_textual']['porcentaje_textos_distintos'])"
+```
+
+### Resultados de referencia (verificados con el dataset del proyecto)
+
+| Medida | Valor |
+|---|---|
+| Comentarios finales | **807** |
+| Distribución de clases | positive = 278, neutral = 277, negative = 252 |
+| Longitud promedio por comentario | 5.18 tokens |
+| Textos distintos | **15** de 807 (1.86 %) |
+| Textos con etiquetas contradictorias | 0 |
+
+---
+
+## 5. Etapa 2: Preprocesamiento lingüístico
+
+### Ejecución
+
+Desde la raíz del repositorio, con el entorno activado:
+
+```
+cd "Etapa 2"
+python pruebas_preprocesamiento.py
+python pipeline.py --input "../Etapa 1/salida_pipeline/feedback_training_limpio.csv"
+```
+
+La primera línea ejecuta las pruebas y debe terminar con `OK: todas las pruebas de la Etapa 2 pasaron.`
+
+| Argumento | Por defecto | Descripción |
+|---|---|---|
+| `--input` | `feedback_training_limpio.csv` | Salida de la Etapa 1 |
+| `--outdir` | `./salida_etapa2` | Carpeta de salida |
+| `--n-procesos` | `1` | Procesos en paralelo (útil en corpus grandes) |
+| `--batch-size` | `256` | Tamaño de lote de spaCy |
+
+### Archivos generados en `salida_etapa2/`
+
+| Archivo | Contenido |
+|---|---|
+| `feedback_training_preprocesado.csv` | Corpus con `comentario_procesado` y `n_tokens_procesados`; **entrada de la Etapa 3** |
+| `top_lemas.csv` | Los 20 lemas más frecuentes |
+| `metadatos_etapa2.json` | Versiones, parámetros y conteos de la corrida |
+
+`feedback_training_preprocesado.csv` conserva las ocho columnas de la Etapa 1 y agrega dos más (diez en total).
+
+### Verificación
+
+**1. Estructura y transformaciones:**
+
+```
+python -c "import pandas as pd; d=pd.read_csv('salida_etapa2/feedback_training_preprocesado.csv'); print(len(d)); print(list(d.columns)); print(d[['comentario_limpio','comentario_procesado']].drop_duplicates().to_string())"
+```
+
+**2. Lemas más frecuentes:**
+
+```
+python -c "import pandas as pd; print(pd.read_csv('salida_etapa2/top_lemas.csv').head())"
+```
+
+### Resultados de referencia (verificados con el dataset del proyecto)
+
+| Medida | Valor |
+|---|---|
+| Comentarios de entrada y de salida | 807 / 807 |
+| Descartados por quedar sin términos | 0 |
+| Con un solo término tras el filtrado | 57 |
+| Longitud promedio (tokens separados por espacio) | 5.13 → 3.23 |
+| Vocabulario de lemas | 41 |
+| Lema más frecuente | `content` (177) |
+
+> La longitud de la Etapa 1 (5.18) y la de la Etapa 2 (5.13) no se contradicen: la Etapa 1 cuenta con una expresión regular y la Etapa 2 separa por espacios.
+> Si tu versión de spaCy difiere, algún decimal podría variar levemente. Lo que debe cumplirse es 807 de entrada y salida y 0 descartados.
+
+---
+
+## 6. Parámetros ajustables
+
+### Etapa 1: `Etapa 1/config.py`
+
+| Constante | Función |
+|---|---|
+| `COLUMNAS` | Nombres de las cuatro columnas del archivo crudo |
+| `DELIMITADOR`, `ENCODING_LECTURA` | Lectura del archivo (`"auto"` detecta el delimitador) |
+| `CLASES_VALIDAS` | Etiquetas de sentimiento aceptadas |
+| `UMBRAL_CASI_DUPLICADO` | Similitud (0 a 100) desde la cual dos textos del mismo `id` se consideran casi-duplicados. Valor del proyecto: **85** |
+| `MIN_TOKENS_UTILES` | Mínimo de palabras alfabéticas para conservar un comentario |
+| `CATALOGO_MATERIAS` | Las 19 materias académicas que se conservan |
+| `MATERIAS_NO_ACADEMICAS` | Entidades que se excluyen |
+| `ARCHIVO_LIMPIO` | Nombre del CSV limpio; lo usa `estadisticas.py` como entrada por defecto |
+| `ARCHIVO_ESTADISTICAS`, `ARCHIVO_POR_MATERIA`, `ARCHIVO_TEXTOS_REPETIDOS` | Nombres de los archivos de estadísticas |
+| `TOP_TEXTOS_REPETIDOS` | Máximo de filas guardadas en `textos_repetidos.csv` |
+
+> `pipeline.py` escribe el CSV limpio con el nombre fijo `feedback_training_limpio.csv` y no lee `ARCHIVO_LIMPIO`. Si cambias ese nombre, cámbialo también en `pipeline.py`.
+
+### Etapa 2: `Etapa 2/config.py`
+
+| Constante | Función |
+|---|---|
+| `MODELO_SPACY` | Modelo lingüístico (`en_core_web_sm`, corpus en inglés) |
+| `COL_ENTRADA`, `COL_SALIDA` | Columna que se lee y columna que se crea |
+| `STOPWORDS_CONSERVAR` | Palabras que no se eliminan aunque spaCy las marque como stopwords (negaciones) |
+| `MIN_TOKENS_PROCESADOS` | Un comentario con menos términos que este valor se descarta |
+| `BATCH_SIZE_NLP`, `N_PROCESOS_NLP` | Rendimiento de spaCy |
+| `TOP_LEMAS` | Cuántos lemas frecuentes se guardan |
+
+---
+
+## 7. Reproducibilidad
+
+- Cada corrida de la Etapa 2 guarda `metadatos_etapa2.json` con las versiones de Python y spaCy, el modelo, las negaciones conservadas y los conteos.
+- Para fijar las versiones exactas de tu entorno:
+
+  ```
+  pip freeze > requirements-freeze.txt
+  ```
+
+- Las etapas son deterministas: con los mismos datos y las mismas versiones producen los mismos archivos.
+- No se borra ningún archivo original. Si repites una corrida, renombra la carpeta de salida anterior en lugar de eliminarla, para poder comparar.
+
+---
+
+## 8. Limitaciones conocidas
+
+1. **Diversidad de textos muy baja.** El corpus tiene 807 comentarios pero solo **15 textos distintos** (5 por clase), repetidos entre 42 y 62 veces, sin etiquetas contradictorias. Una partición entrenamiento/prueba habitual pondrá los mismos textos en ambos conjuntos, por lo que las métricas de un clasificador no medirán capacidad de generalización. Debe tenerse en cuenta en el diseño de la evaluación.
+2. **Idioma.** El corpus está en inglés y se usa un modelo en inglés. Una propuesta que plantee stopwords o lematización en español debe actualizarse en consecuencia.
+3. **Compuestos con guion.** spaCy separa las palabras unidas por guion: `hands-on` queda reducido a `hand`.
+4. **Comentarios muy cortos.** 57 comentarios (`Some parts were useful`) quedan con un solo término, `useful`.
+5. **Negaciones.** La regla que conserva las negaciones está justificada, pero ninguno de los 15 textos contiene una, así que en este corpus no tiene efecto.
+6. **Lematizador.** spaCy lematiza con reglas y etiquetas gramaticales, que pueden fallar en frases muy breves.
+
+---
+
+## 9. Solución de problemas
+
+| Síntoma | Causa y solución |
+|---|---|
+| `ImportError: cannot import name 'leer_crudo'` | `io_datos.py` está vacío o incompleto. Vuelve a copiarlo. |
+| `ModuleNotFoundError: No module named ...` | Falta una librería, o el entorno no está activo. Actívalo y ejecuta `pip install -r requirements.txt`. |
+| `Modelo 'en_core_web_sm' no instalado` | Ejecuta `python -m spacy download en_core_web_sm`. |
+| `FileNotFoundError` en `--input` | Estás en la carpeta equivocada o falta la salida de la etapa anterior. Ejecuta cada etapa desde su carpeta. |
+| `KeyError: Falta la columna ...` | El archivo de entrada no es la salida de la etapa anterior. |
+| Resultados distintos a los de referencia | Revisa que `UMBRAL_CASI_DUPLICADO` valga 85 y que usas los archivos `.py` actuales. |
+| `cd: too many arguments` | El nombre de carpeta lleva espacio. Escríbelo entre comillas: `cd "Etapa 1"`. |
+| `ImportError: DLL load failed ... An Application Control policy has blocked this file` (Windows) | Ver abajo. |
+
+### Windows: bloqueo del Control inteligente de aplicaciones
+
+En Windows 11, el **Control inteligente de aplicaciones** puede bloquear archivos compilados de spaCy sin firma reconocida. El error aparece al importar `spacy` y no es un fallo del código.
+
+1. Actualiza Windows (*Configuración → Windows Update*). Antes de la actualización `KB5083769` (abril de 2026), apagar esta función era irreversible sin reinstalar o restablecer Windows; con esa actualización puede activarse y desactivarse libremente.
+2. Desactívala temporalmente: *Seguridad de Windows → Control de aplicaciones y del navegador → Configuración del Control inteligente de aplicaciones → Desactivado*.
+3. Cierra y vuelve a abrir la terminal, reactiva el entorno y ejecuta la Etapa 2.
+4. Cuando termines, vuelve a activarla.
+
+Desactivarla reduce la protección del equipo. Hazlo solo mientras ejecutas la etapa.
+
+Para comprobar que el bloqueo desapareció:
+
+```
+python -c "import spacy; print(spacy.__version__)"
+```
+
+---
+
+## Estado del proyecto
+
+- [x] Etapa 1: limpieza de datos
+- [x] Etapa 2: preprocesamiento lingüístico
+- [ ] Etapa 3: vectorización TF-IDF
+- [ ] Entrenamiento y evaluación de clasificadores

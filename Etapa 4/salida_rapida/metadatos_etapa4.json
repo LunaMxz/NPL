@@ -1,0 +1,123 @@
+{
+  "fecha_utc": "2026-11-07T01:03:06+00:00",
+  "modo": "rapido",
+  "comando": "pipeline.py --entrada ../Etapa 2/salida_etapa2/feedback_training_preprocesado.csv --rapido --salida ./salida_rapida",
+  "entrada": {
+    "ruta": "C:\\Users\\lylav\\Documents\\semestre 9\\Seminario de la investigacion 2\\NPL DEPLOV\\Etapa 2\\salida_etapa2\\feedback_training_preprocesado.csv",
+    "sha256": "ff84ff4aa3b1ab5a638a200a7f35e7a3ef7619bbd00a1701afde86d234f870ca"
+  },
+  "corpus": {
+    "comentarios": 807,
+    "textos_distintos": 15,
+    "clases": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "distribucion": {
+      "positive": 278,
+      "neutral": 277,
+      "negative": 252
+    }
+  },
+  "experimentos": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9"
+  ],
+  "duracion_segundos": {
+    "E1": 0.14,
+    "E2": 0.45,
+    "E3": 3.35,
+    "E4": 0.1,
+    "E5": 1.3,
+    "E6": 1.16,
+    "E7": 1.19,
+    "E8": 6.44,
+    "E9": 0.02
+  },
+  "duracion_total_segundos": 14.18,
+  "parametros": {
+    "COL_ID": "id",
+    "COL_MATERIA": "materia",
+    "COL_CLASE": "sentimiento",
+    "COL_TEXTO": "comentario_procesado",
+    "COL_TEXTO_LIMPIO": "comentario_limpio",
+    "ORDEN_CLASES": [
+      "positive",
+      "neutral",
+      "negative",
+      "irrelevant"
+    ],
+    "NGRAMAS": 2,
+    "SEMILLA": 42,
+    "TEST_SIZE": 0.2,
+    "N_SEMILLAS": 5,
+    "N_PLIEGUES": 5,
+    "N_REPETICIONES_GRUPOS": 3,
+    "MAX_ITER": 1000,
+    "TOL": 0.0001,
+    "ALPHA_DEFECTO": 1.0,
+    "C_DEFECTO": 1.0,
+    "REJILLA_ALPHA": [
+      0.01,
+      0.1,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "REJILLA_C": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "N_BOOTSTRAP": 200,
+    "NIVEL_CONFIANZA": 0.95,
+    "CALENTAMIENTO": 2,
+    "REPETICIONES_TIEMPO": 15,
+    "BOOTSTRAP_TIEMPO": 300,
+    "HILOS": 1,
+    "FACTORES_ESCALAMIENTO": [
+      1,
+      2,
+      4
+    ],
+    "FRACCIONES_ESCALAMIENTO": [
+      0.25,
+      1.0
+    ],
+    "REPETICIONES_ESCALAMIENTO": 5
+  },
+  "equipo": {
+    "sistema": "Windows-10-10.0.26300-SP0",
+    "procesador": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "nucleos_logicos": 12,
+    "python": "3.11.5",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pandas": "3.0.6",
+    "scikit_learn": "1.9.1",
+    "bibliotecas_numericas": [
+      {
+        "api": "openblas",
+        "hilos": 12
+      },
+      {
+        "api": "openmp",
+        "hilos": 12
+      },
+      {
+        "api": "openblas",
+        "hilos": 12
+      }
+    ]
+  }
+}

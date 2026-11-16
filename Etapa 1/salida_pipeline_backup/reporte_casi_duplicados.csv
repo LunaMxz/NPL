@@ -1,0 +1,124 @@
+id,materia,sentimiento,comentario,sentimiento_original,tiene_token_unk,comentario_limpio
+9121,Cloud Computing Essentials,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+2402,Software Engineering Principles,negative,Outdated content and poor structure.,negative ,False,Outdated content and poor structure.
+2402,Database Systems Advanced,negative,Outdated content and poor structure.,negative ,False,Outdated content and poor structure.
+9124,Agile Project Management,positive,Great course! The explanation style was clear and enjoyable.,positive ,False,Great course! The explanation style was clear and enjoyable.
+9127,Cybersecurity Introduction,negative,Lack of hands-on exercises ruined the experience.,negative ,False,Lack of hands-on exercises ruined the experience.
+2406,Big Data Analytics,neutral,Average content,neutral ,False,Average content
+9128,Python for Data Science,negative,The instructor skipped important topics.,negative ,False,The instructor skipped important topics.
+2407,Mobile App Development with Flutter,neutral,The course was okay,neutral ,False,The course was okay
+2407,Mobile App Development with Flutter,negative,The instructor skipped important topics.,negative ,False,The instructor skipped important topics.
+2407,Cloud Computing Essentials,positive,Great course! The explanation style was clear and enjoyable.,positive ,False,Great course! The explanation style was clear and enjoyable.
+9129,UI/UX Design Basics,neutral,Average content,neutral ,False,Average content
+2409,Mobile App Development with Flutter,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+9131,Agile Project Management,positive,Great course! The explanation style was clear and enjoyable.,positive ,False,Great course! The explanation style was clear and enjoyable.
+9132,Agile Project Management,neutral,Average content,neutral ,False,Average content
+2410,Digital Marketing Strategy,neutral,Average content,neutral ,False,Average content
+9133,React Frontend Mastery,neutral,Some parts were useful,neutral ,False,Some parts were useful
+2411,React Frontend Mastery,positive,Excellent instructor and clear explanations.,positive ,False,Excellent instructor and clear explanations.
+2412,Machine Learning with TensorFlow,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+9135,Cloud Computing Essentials,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+9135,Mobile App Development with Flutter,positive,Loved the assignments! Very interactive.,positive ,False,Loved the assignments! Very interactive.
+2413,Database Systems Advanced,neutral,Average content,neutral ,False,Average content
+9136,Cloud Computing Essentials,neutral,Some parts were useful,neutral ,False,Some parts were useful
+2414,Web Development Bootcamp,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+2414,Software Engineering Principles,positive,Great course! The explanation style was clear and enjoyable.,positive ,False,Great course! The explanation style was clear and enjoyable.
+9137,Computer Networks 101,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+9139,React Frontend Mastery,positive,Great course! The explanation style was clear and enjoyable.,positive ,False,Great course! The explanation style was clear and enjoyable.
+9139,Intro to AI Ethics,positive,Great course! The explanation style was clear and enjoyable.,positive ,False,Great course! The explanation style was clear and enjoyable.
+2417,Java Programming Zero-to-Hero,negative,The pacing was too fast and unclear.,negative ,False,The pacing was too fast and unclear.
+9140,Digital Marketing Strategy,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+9140,Agile Project Management,neutral,The course was okay,neutral ,False,The course was okay
+2418,React Frontend Mastery,negative,The pacing was too fast and unclear.,negative ,False,The pacing was too fast and unclear.
+9141,Digital Marketing Strategy,neutral,The course was okay,neutral ,False,The course was okay
+9142,Software Engineering Principles,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+2420,Java Programming Zero-to-Hero,neutral,Some parts were useful,neutral ,False,Some parts were useful
+9143,Database Systems Advanced,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+9143,Web Development Bootcamp,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+9144,Agile Project Management,negative,The instructor skipped important topics.,negative ,False,The instructor skipped important topics.
+9144,Natural Language Processing,negative,The instructor skipped important topics.,negative ,False,The instructor skipped important topics.
+2422,Java Programming Zero-to-Hero,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+2423,Web Development Bootcamp,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+2425,Agile Project Management,neutral,Average content,neutral ,False,Average content
+9148,Cybersecurity Introduction,neutral,Neutral impression,neutral ,False,Neutral impression
+2426,Agile Project Management,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+2426,UI/UX Design Basics,neutral,Average content,neutral ,False,Average content
+9149,UI/UX Design Basics,positive,Excellent instructor and clear explanations.,positive ,False,Excellent instructor and clear explanations.
+2427,Software Engineering Principles,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+9150,Cybersecurity Introduction,positive,Excellent instructor and clear explanations.,positive ,False,Excellent instructor and clear explanations.
+9150,Agile Project Management,positive,Excellent instructor and clear explanations.,positive ,False,Excellent instructor and clear explanations.
+2428,Natural Language Processing,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+9151,Cloud Computing Essentials,negative,Outdated content and poor structure.,negative ,False,Outdated content and poor structure.
+9151,Machine Learning with TensorFlow,negative,The instructor skipped important topics.,negative ,False,The instructor skipped important topics.
+9153,Machine Learning with TensorFlow,negative,Lack of hands-on exercises ruined the experience.,negative ,False,Lack of hands-on exercises ruined the experience.
+2430,React Frontend Mastery,positive,Excellent instructor and clear explanations.,positive ,False,Excellent instructor and clear explanations.
+9154,Database Systems Advanced,positive,Great course! The explanation style was clear and enjoyable.,positive ,False,Great course! The explanation style was clear and enjoyable.
+2431,Digital Marketing Strategy,positive,Excellent instructor and clear explanations.,positive ,False,Excellent instructor and clear explanations.
+2431,Natural Language Processing,positive,Excellent instructor and clear explanations.,positive ,False,Excellent instructor and clear explanations.
+2433,Computer Networks 101,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+2434,Natural Language Processing,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+2434,Computer Networks 101,positive,Loved the assignments! Very interactive.,positive ,False,Loved the assignments! Very interactive.
+9162,Machine Learning with TensorFlow,neutral,The course was okay,neutral ,False,The course was okay
+9162,Java Programming Zero-to-Hero,negative,Lack of hands-on exercises ruined the experience.,negative ,False,Lack of hands-on exercises ruined the experience.
+9163,Software Engineering Principles,neutral,Neutral impression,neutral ,False,Neutral impression
+9163,React Frontend Mastery,negative,Audio quality was bad and distracting.,negative ,False,Audio quality was bad and distracting.
+9164,Natural Language Processing,neutral,Neutral impression,neutral ,False,Neutral impression
+2439,Computer Networks 101,negative,Outdated content and poor structure.,negative ,False,Outdated content and poor structure.
+9166,Big Data Analytics,neutral,Some parts were useful,neutral ,False,Some parts were useful
+2443,Agile Project Management,neutral,Some parts were useful,neutral ,False,Some parts were useful
+2443,Big Data Analytics,positive,Loved the assignments! Very interactive.,positive ,False,Loved the assignments! Very interactive.
+9170,Web Development Bootcamp,negative,Lack of hands-on exercises ruined the experience.,negative ,False,Lack of hands-on exercises ruined the experience.
+2444,Java Programming Zero-to-Hero,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+2444,Machine Learning with TensorFlow,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+2445,Machine Learning with TensorFlow,neutral,The course was okay,neutral ,False,The course was okay
+2446,Deep Learning Fundamentals,positive,Loved the assignments! Very interactive.,positive ,False,Loved the assignments! Very interactive.
+9173,Cloud Computing Essentials,positive,Loved the assignments! Very interactive.,positive ,False,Loved the assignments! Very interactive.
+2447,Database Systems Advanced,negative,Outdated content and poor structure.,negative ,False,Outdated content and poor structure.
+9174,React Frontend Mastery,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+2448,UI/UX Design Basics,negative,Audio quality was bad and distracting.,negative ,False,Audio quality was bad and distracting.
+9175,Big Data Analytics,negative,The pacing was too fast and unclear.,negative ,False,The pacing was too fast and unclear.
+2449,Python for Data Science,neutral,Some parts were useful,neutral ,False,Some parts were useful
+2449,Database Systems Advanced,negative,The pacing was too fast and unclear.,negative ,False,The pacing was too fast and unclear.
+9176,Computer Networks 101,neutral,The course was okay,neutral ,False,The course was okay
+2450,Machine Learning with TensorFlow,negative,Audio quality was bad and distracting.,negative ,False,Audio quality was bad and distracting.
+2451,Cybersecurity Introduction,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+9177,Deep Learning Fundamentals,neutral,Neutral impression,neutral ,False,Neutral impression
+2452,Computer Networks 101,negative,Outdated content and poor structure.,negative ,False,Outdated content and poor structure.
+9180,Big Data Analytics,negative,Audio quality was bad and distracting.,negative ,False,Audio quality was bad and distracting.
+9180,React Frontend Mastery,neutral,Neutral impression,neutral ,False,Neutral impression
+9181,Computer Networks 101,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+2456,Computer Networks 101,negative,The pacing was too fast and unclear.,negative ,False,The pacing was too fast and unclear.
+2456,Computer Networks 101,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+9183,Computer Networks 101,neutral,Average content,neutral ,False,Average content
+9185,Software Engineering Principles,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+2459,Web Development Bootcamp,neutral,Some parts were useful,neutral ,False,Some parts were useful
+2459,React Frontend Mastery,neutral,Some parts were useful,neutral ,False,Some parts were useful
+9186,Web Development Bootcamp,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+9187,Cloud Computing Essentials,positive,Loved the assignments! Very interactive.,positive ,False,Loved the assignments! Very interactive.
+9187,Machine Learning with TensorFlow,positive,Loved the assignments! Very interactive.,positive ,False,Loved the assignments! Very interactive.
+2462,Big Data Analytics,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+2462,Intro to AI Ethics,neutral,Some parts were useful,neutral ,False,Some parts were useful
+9189,Mobile App Development with Flutter,neutral,Neutral impression,neutral ,False,Neutral impression
+2463,Computer Networks 101,positive,Great course! The explanation style was clear and enjoyable.,positive ,False,Great course! The explanation style was clear and enjoyable.
+2463,Big Data Analytics,neutral,The course was okay,neutral ,False,The course was okay
+2465,Cybersecurity Introduction,positive,Loved the assignments! Very interactive.,positive ,False,Loved the assignments! Very interactive.
+2466,Deep Learning Fundamentals,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+9193,Deep Learning Fundamentals,negative,The instructor skipped important topics.,negative ,False,The instructor skipped important topics.
+2467,UI/UX Design Basics,negative,Outdated content and poor structure.,negative ,False,Outdated content and poor structure.
+2468,Mobile App Development with Flutter,neutral,Average content,neutral ,False,Average content
+2469,Cloud Computing Essentials,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+2471,Cybersecurity Introduction,negative,The instructor skipped important topics.,negative ,False,The instructor skipped important topics.
+9198,Cybersecurity Introduction,positive,Excellent instructor and clear explanations.,positive ,False,Excellent instructor and clear explanations.
+9199,Python for Data Science,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+2474,Machine Learning with TensorFlow,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+2475,Software Engineering Principles,neutral,Average content,neutral ,False,Average content
+2477,Data Visualization with Power BI,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+9112,Cybersecurity Introduction,neutral,The course was okay,neutral ,False,The course was okay
+9113,Python for Data Science,positive,Very practical and easy to follow.,positive ,False,Very practical and easy to follow.
+2478,Web Development Bootcamp,negative,Outdated content and poor structure.,negative ,False,Outdated content and poor structure.
+9114,Mobile App Development with Flutter,neutral,Average content,neutral ,False,Average content
+2479,Intro to AI Ethics,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+2484,React Frontend Mastery,positive,Amazing content and very well structured.,positive ,False,Amazing content and very well structured.
+2484,Cloud Computing Essentials,neutral,The experience was acceptable overall.,neutral ,False,The experience was acceptable overall.
+9119,Cloud Computing Essentials,negative,Outdated content and poor structure.,negative ,False,Outdated content and poor structure.
+9120,Deep Learning Fundamentals,negative,Audio quality was bad and distracting.,negative ,False,Audio quality was bad and distracting.

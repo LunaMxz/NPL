@@ -1,0 +1,17 @@
+pandas
+spacy>=3.7
+# Modelo (una sola vez):  python -m spacy download en_core_web_sm
+
+
+pip install pandas matplotlib ftfy rapidfuzz "spacy>=3.7" scikit-learn
+python -m spacy download en_core_web_sm
+
+ETAPA 1 
+cd etapa1_limpieza
+python pipeline.py --input Feedback_Training.csv --outdir ./salida_pipeline
+
+
+pandas
+matplotlib
+ftfy
+rapidfuzz

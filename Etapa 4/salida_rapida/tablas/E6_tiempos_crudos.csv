@@ -1,0 +1,76 @@
+﻿modelo,orden,fit_cpu_ms,fit_reloj_ms,pred_cpu_ms,pred_reloj_ms
+Naive Bayes,0,0.0,3.7562,0.0,0.5493
+Naive Bayes,1,0.0,3.0307,0.0,0.4561
+SVM lineal (libsvm),2,15.625,7.5359,0.0,1.4167
+Regresión Logística,3,15.625,12.9463,0.0,0.6194
+Naive Bayes,4,0.0,3.2025,0.0,0.6779
+Regresión Logística,5,15.625,11.4894,0.0,0.5646
+SVM lineal (libsvm),6,0.0,5.8142,0.0,1.4394
+Regresión Logística,7,15.625,10.9247,0.0,0.5662
+Naive Bayes,8,0.0,3.5409,0.0,0.4346
+Regresión Logística,9,15.625,10.9083,0.0,0.5554
+Regresión Logística,10,15.625,11.4017,0.0,0.5828
+Regresión Logística,11,0.0,11.033,0.0,0.5535
+SVM lineal (libsvm),12,15.625,5.4363,0.0,1.3921
+Naive Bayes,13,0.0,3.2619,0.0,0.5283
+Regresión Logística,14,15.625,11.706,0.0,0.576
+SVM lineal (liblinear),15,0.0,6.6872,0.0,1.2585
+Naive Bayes,16,15.625,3.1456,0.0,0.5144
+Naive Bayes,17,0.0,2.9606,0.0,0.4859
+SVM lineal (libsvm),18,0.0,6.2932,0.0,1.44
+Naive Bayes,19,15.625,3.3984,0.0,0.4888
+SVM lineal (libsvm),20,0.0,5.326,0.0,1.4216
+SVM lineal (liblinear),21,15.625,6.6249,0.0,1.2394
+SVM lineal (libsvm),22,0.0,5.3483,0.0,1.356
+Regresión Logística,23,15.625,11.3365,0.0,0.5607
+SVM lineal (liblinear),24,0.0,6.0866,0.0,2.2272
+Regresión Logística,25,15.625,11.4363,0.0,0.567
+SVM lineal (liblinear),26,0.0,6.5609,15.625,1.2237
+SVM lineal (liblinear),27,0.0,6.1258,0.0,1.1501
+Naive Bayes,28,0.0,3.0609,0.0,0.9864
+SVM lineal (libsvm),29,15.625,5.7421,0.0,1.4169
+SVM lineal (liblinear),30,0.0,5.8441,0.0,1.1703
+SVM lineal (liblinear),31,15.625,6.1426,0.0,1.188
+SVM lineal (liblinear),32,0.0,5.7352,0.0,1.1367
+Regresión Logística,33,15.625,11.6741,0.0,0.6468
+Naive Bayes,34,0.0,3.2305,0.0,0.5048
+SVM lineal (libsvm),35,15.625,5.7956,0.0,1.4423
+Regresión Logística,36,0.0,11.9289,0.0,0.6054
+SVM lineal (libsvm),37,15.625,5.6145,0.0,1.4209
+SVM lineal (libsvm),38,0.0,5.4532,0.0,1.5453
+SVM lineal (liblinear),39,15.625,6.1899,0.0,1.1761
+SVM lineal (libsvm),40,0.0,5.409,0.0,1.4359
+Naive Bayes,41,0.0,3.611,15.625,0.498
+SVM lineal (liblinear),42,0.0,5.8971,0.0,1.1642
+Naive Bayes,43,0.0,3.2409,0.0,0.4867
+Regresión Logística,44,15.625,11.1317,0.0,0.573
+SVM lineal (libsvm),45,0.0,5.4615,0.0,2.0103
+SVM lineal (libsvm),46,15.625,5.5154,0.0,1.3575
+SVM lineal (liblinear),47,0.0,5.8993,0.0,1.2531
+Regresión Logística,48,15.625,11.9362,0.0,0.5913
+Naive Bayes,49,0.0,3.1265,0.0,0.574
+SVM lineal (liblinear),50,15.625,6.7115,0.0,1.2076
+SVM lineal (liblinear),51,0.0,6.0953,0.0,1.1679
+Regresión Logística,52,15.625,12.885,0.0,0.5685
+SVM lineal (liblinear),53,15.625,6.3082,0.0,1.1934
+Naive Bayes,54,0.0,3.1713,0.0,0.469
+SVM lineal (libsvm),55,0.0,5.3696,0.0,1.3834
+Naive Bayes,56,15.625,3.2765,0.0,0.4932
+SVM lineal (liblinear),57,0.0,5.8022,0.0,1.2002
+Regresión Logística,58,15.625,12.2878,0.0,0.6605
+SVM lineal (libsvm),59,0.0,5.507,0.0,1.412
+TF-IDF (vectorización),0,15.625,12.7297,0.0,1.6871
+TF-IDF (vectorización),1,15.625,12.0721,0.0,1.6073
+TF-IDF (vectorización),2,15.625,11.3592,0.0,1.9862
+TF-IDF (vectorización),3,15.625,11.6644,0.0,1.5913
+TF-IDF (vectorización),4,15.625,11.6011,0.0,1.6384
+TF-IDF (vectorización),5,15.625,11.8748,0.0,1.5767
+TF-IDF (vectorización),6,0.0,11.8475,15.625,1.6493
+TF-IDF (vectorización),7,0.0,11.6589,0.0,1.5829
+TF-IDF (vectorización),8,15.625,11.7538,0.0,1.6092
+TF-IDF (vectorización),9,15.625,11.5646,0.0,1.5672
+TF-IDF (vectorización),10,15.625,12.4674,0.0,1.5601
+TF-IDF (vectorización),11,15.625,12.3456,0.0,1.5732
+TF-IDF (vectorización),12,15.625,12.4549,0.0,1.5928
+TF-IDF (vectorización),13,15.625,12.4487,0.0,1.5889
+TF-IDF (vectorización),14,0.0,11.7719,15.625,1.585

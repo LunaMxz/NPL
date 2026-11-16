@@ -1,0 +1,5 @@
+﻿modelo,hiperparametro,valor_defecto,mejor_valor,f1_validacion_cruzada,f1_prueba_defecto,f1_prueba_ajustado,accuracy_prueba_ajustado
+Naive Bayes,alpha,1.0,0.01,0.11874766900398667,1.0,1.0,1.0
+SVM lineal (liblinear),C,1.0,1.0,0.21700717587332044,1.0,1.0,1.0
+SVM lineal (libsvm),C,1.0,0.1,0.22530704200451188,1.0,1.0,1.0
+Regresión Logística,C,1.0,0.1,0.16944622692160943,1.0,1.0,1.0

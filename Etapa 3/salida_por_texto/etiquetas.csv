@@ -1,0 +1,808 @@
+id,materia,sentimiento,particion
+2401,Database Systems Advanced,positive,train
+2401,Natural Language Processing,neutral,train
+2401,Digital Marketing Strategy,negative,train
+2401,Web Development Bootcamp,positive,train
+2401,Software Engineering Principles,positive,train
+2401,Natural Language Processing,negative,test
+2402,Web Development Bootcamp,negative,train
+2402,Intro to AI Ethics,positive,train
+2402,Cloud Computing Essentials,neutral,train
+2402,Natural Language Processing,neutral,train
+2403,Database Systems Advanced,neutral,test
+2403,Digital Marketing Strategy,positive,train
+2403,Database Systems Advanced,positive,train
+2403,Cloud Computing Essentials,positive,train
+2403,React Frontend Mastery,neutral,train
+2403,UI/UX Design Basics,negative,train
+2404,Web Development Bootcamp,negative,train
+2404,Database Systems Advanced,negative,train
+2404,Data Visualization with Power BI,neutral,train
+2404,Deep Learning Fundamentals,neutral,train
+2404,Digital Marketing Strategy,positive,test
+2404,React Frontend Mastery,neutral,train
+2405,React Frontend Mastery,positive,test
+2405,Deep Learning Fundamentals,neutral,train
+2405,Agile Project Management,neutral,train
+2405,React Frontend Mastery,negative,train
+2405,Agile Project Management,neutral,train
+2405,Database Systems Advanced,positive,train
+2406,Cloud Computing Essentials,neutral,train
+2406,Intro to AI Ethics,negative,train
+2406,Agile Project Management,neutral,train
+2407,Data Visualization with Power BI,positive,train
+2407,Software Engineering Principles,neutral,train
+2407,Cybersecurity Introduction,negative,test
+2408,Software Engineering Principles,neutral,train
+2408,Agile Project Management,positive,train
+2408,Database Systems Advanced,negative,test
+2408,Java Programming Zero-to-Hero,positive,test
+2408,React Frontend Mastery,positive,train
+2409,Python for Data Science,neutral,train
+2409,Cybersecurity Introduction,positive,test
+2409,Computer Networks 101,positive,train
+2409,Agile Project Management,negative,test
+2410,Big Data Analytics,positive,test
+2410,Database Systems Advanced,negative,train
+2410,Software Engineering Principles,neutral,train
+2410,Mobile App Development with Flutter,positive,train
+2410,Machine Learning with TensorFlow,neutral,train
+2411,Machine Learning with TensorFlow,positive,test
+2411,Database Systems Advanced,positive,train
+2411,Python for Data Science,negative,test
+2411,Cloud Computing Essentials,positive,train
+2412,Python for Data Science,negative,train
+2412,Agile Project Management,positive,train
+2412,Agile Project Management,neutral,test
+2412,Cloud Computing Essentials,positive,train
+2412,Cloud Computing Essentials,neutral,train
+2413,Cybersecurity Introduction,positive,train
+2413,Web Development Bootcamp,neutral,train
+2413,Natural Language Processing,negative,train
+2413,Java Programming Zero-to-Hero,positive,train
+2413,Cybersecurity Introduction,neutral,test
+2414,Cloud Computing Essentials,negative,train
+2414,Intro to AI Ethics,neutral,train
+2414,Big Data Analytics,positive,train
+2414,Mobile App Development with Flutter,positive,train
+2415,Data Visualization with Power BI,neutral,train
+2415,React Frontend Mastery,positive,train
+2415,Python for Data Science,negative,train
+2415,Digital Marketing Strategy,positive,train
+2416,Deep Learning Fundamentals,positive,train
+2416,Machine Learning with TensorFlow,positive,train
+2416,Natural Language Processing,neutral,train
+2416,Database Systems Advanced,negative,train
+2416,Computer Networks 101,positive,train
+2417,Mobile App Development with Flutter,negative,train
+2417,UI/UX Design Basics,neutral,test
+2417,Data Visualization with Power BI,positive,train
+2418,Intro to AI Ethics,neutral,train
+2418,React Frontend Mastery,positive,train
+2418,React Frontend Mastery,negative,test
+2418,Digital Marketing Strategy,negative,train
+2418,Cloud Computing Essentials,positive,train
+2419,Mobile App Development with Flutter,positive,train
+2419,Big Data Analytics,negative,train
+2419,Big Data Analytics,neutral,test
+2419,UI/UX Design Basics,neutral,train
+2419,Cybersecurity Introduction,neutral,train
+2419,Database Systems Advanced,positive,train
+2420,Database Systems Advanced,neutral,train
+2420,Web Development Bootcamp,positive,train
+2420,Database Systems Advanced,neutral,train
+2420,Data Visualization with Power BI,negative,train
+2421,Cybersecurity Introduction,neutral,test
+2421,Deep Learning Fundamentals,negative,train
+2421,Database Systems Advanced,neutral,train
+2421,Software Engineering Principles,neutral,train
+2421,Big Data Analytics,positive,train
+2422,Cloud Computing Essentials,negative,test
+2422,Deep Learning Fundamentals,negative,train
+2422,Agile Project Management,positive,test
+2422,Digital Marketing Strategy,positive,train
+2422,Cloud Computing Essentials,positive,train
+2423,Deep Learning Fundamentals,positive,train
+2423,Software Engineering Principles,neutral,test
+2423,Big Data Analytics,positive,test
+2423,Agile Project Management,positive,train
+2423,React Frontend Mastery,neutral,train
+2424,Intro to AI Ethics,negative,train
+2424,Intro to AI Ethics,negative,train
+2424,Natural Language Processing,neutral,train
+2424,Database Systems Advanced,positive,test
+2424,Cloud Computing Essentials,negative,train
+2425,Python for Data Science,neutral,test
+2425,Machine Learning with TensorFlow,negative,test
+2425,Web Development Bootcamp,neutral,train
+2425,Natural Language Processing,negative,train
+2425,Deep Learning Fundamentals,negative,train
+2426,Java Programming Zero-to-Hero,neutral,train
+2426,Digital Marketing Strategy,negative,train
+2426,Python for Data Science,positive,test
+2426,Natural Language Processing,neutral,train
+2427,Natural Language Processing,neutral,train
+2427,Mobile App Development with Flutter,neutral,test
+2427,Natural Language Processing,positive,train
+2427,Machine Learning with TensorFlow,neutral,train
+2427,Digital Marketing Strategy,positive,train
+2428,UI/UX Design Basics,neutral,train
+2428,Mobile App Development with Flutter,negative,train
+2428,Cloud Computing Essentials,neutral,train
+2428,Big Data Analytics,negative,test
+2428,Intro to AI Ethics,negative,train
+2429,React Frontend Mastery,neutral,train
+2429,Digital Marketing Strategy,positive,train
+2429,Data Visualization with Power BI,positive,test
+2429,UI/UX Design Basics,positive,train
+2429,Computer Networks 101,negative,train
+2429,Cybersecurity Introduction,positive,train
+2430,Software Engineering Principles,neutral,train
+2430,Cloud Computing Essentials,negative,train
+2430,Deep Learning Fundamentals,positive,test
+2430,UI/UX Design Basics,positive,train
+2430,Intro to AI Ethics,neutral,train
+2431,Agile Project Management,negative,test
+2431,Data Visualization with Power BI,positive,test
+2431,Cybersecurity Introduction,negative,train
+2431,Agile Project Management,neutral,train
+2432,Computer Networks 101,positive,train
+2432,Intro to AI Ethics,positive,train
+2432,Database Systems Advanced,negative,train
+2432,Database Systems Advanced,neutral,train
+2432,React Frontend Mastery,neutral,test
+2433,Deep Learning Fundamentals,positive,train
+2433,Machine Learning with TensorFlow,negative,train
+2433,Software Engineering Principles,positive,train
+2433,React Frontend Mastery,neutral,train
+2433,Intro to AI Ethics,negative,train
+2434,Mobile App Development with Flutter,negative,train
+2434,Python for Data Science,neutral,train
+2434,Big Data Analytics,positive,train
+2435,Computer Networks 101,negative,train
+2435,Agile Project Management,positive,train
+2435,React Frontend Mastery,negative,train
+2435,Agile Project Management,neutral,test
+2435,Data Visualization with Power BI,positive,train
+2435,UI/UX Design Basics,negative,test
+2436,Data Visualization with Power BI,negative,train
+2436,Computer Networks 101,positive,train
+2436,Cloud Computing Essentials,neutral,train
+2436,React Frontend Mastery,neutral,train
+2436,Natural Language Processing,negative,train
+2436,Deep Learning Fundamentals,positive,test
+2437,Cybersecurity Introduction,negative,train
+2437,Cloud Computing Essentials,neutral,train
+2437,Python for Data Science,positive,test
+2437,Cloud Computing Essentials,negative,train
+2437,Agile Project Management,negative,train
+2437,Software Engineering Principles,neutral,train
+2438,Agile Project Management,neutral,train
+2438,React Frontend Mastery,positive,train
+2438,Cloud Computing Essentials,neutral,test
+2438,UI/UX Design Basics,positive,test
+2438,Python for Data Science,negative,train
+2438,Cybersecurity Introduction,neutral,train
+2439,Python for Data Science,negative,train
+2439,Computer Networks 101,positive,train
+2439,Database Systems Advanced,neutral,train
+2439,Cloud Computing Essentials,positive,train
+2439,Mobile App Development with Flutter,neutral,test
+2440,Mobile App Development with Flutter,neutral,train
+2440,Agile Project Management,positive,test
+2440,UI/UX Design Basics,negative,train
+2440,Cloud Computing Essentials,positive,train
+2440,Web Development Bootcamp,neutral,train
+2440,Intro to AI Ethics,negative,train
+2441,Mobile App Development with Flutter,negative,train
+2441,Intro to AI Ethics,positive,train
+2441,Big Data Analytics,negative,test
+2441,Java Programming Zero-to-Hero,neutral,train
+2441,Digital Marketing Strategy,neutral,test
+2441,Agile Project Management,positive,test
+2442,Big Data Analytics,negative,train
+2442,Software Engineering Principles,negative,train
+2442,Digital Marketing Strategy,positive,train
+2442,Deep Learning Fundamentals,positive,train
+2442,Agile Project Management,positive,test
+2442,Machine Learning with TensorFlow,positive,train
+2443,Data Visualization with Power BI,neutral,train
+2443,Intro to AI Ethics,neutral,train
+2443,Intro to AI Ethics,neutral,train
+2443,Digital Marketing Strategy,positive,train
+2444,Web Development Bootcamp,positive,train
+2444,Machine Learning with TensorFlow,positive,train
+2444,Computer Networks 101,neutral,train
+2444,Agile Project Management,neutral,train
+2445,Data Visualization with Power BI,neutral,train
+2445,Natural Language Processing,neutral,train
+2445,Computer Networks 101,negative,train
+2445,Java Programming Zero-to-Hero,negative,train
+2446,Mobile App Development with Flutter,negative,train
+2446,Database Systems Advanced,positive,train
+2446,Intro to AI Ethics,negative,train
+2446,Cloud Computing Essentials,neutral,test
+2446,Python for Data Science,positive,test
+2447,Natural Language Processing,positive,train
+2447,Digital Marketing Strategy,positive,test
+2447,Java Programming Zero-to-Hero,negative,train
+2447,React Frontend Mastery,negative,train
+2448,Natural Language Processing,negative,test
+2448,Intro to AI Ethics,positive,train
+2448,Mobile App Development with Flutter,neutral,train
+2448,Machine Learning with TensorFlow,negative,train
+2449,Java Programming Zero-to-Hero,negative,train
+2449,Python for Data Science,negative,train
+2449,Intro to AI Ethics,neutral,train
+2449,Digital Marketing Strategy,negative,test
+2450,Database Systems Advanced,negative,train
+2450,Mobile App Development with Flutter,positive,train
+2450,Data Visualization with Power BI,neutral,test
+2450,Java Programming Zero-to-Hero,positive,test
+2450,Database Systems Advanced,positive,train
+2451,Mobile App Development with Flutter,positive,train
+2451,Natural Language Processing,negative,train
+2451,Database Systems Advanced,neutral,train
+2451,Python for Data Science,positive,train
+2452,Digital Marketing Strategy,negative,test
+2452,Computer Networks 101,positive,train
+2452,Web Development Bootcamp,negative,train
+2452,Cloud Computing Essentials,negative,train
+2452,Intro to AI Ethics,neutral,train
+2453,Database Systems Advanced,positive,train
+2453,Cybersecurity Introduction,neutral,train
+2453,Python for Data Science,neutral,train
+2453,Database Systems Advanced,neutral,train
+2453,React Frontend Mastery,neutral,test
+2454,Java Programming Zero-to-Hero,negative,train
+2454,Web Development Bootcamp,positive,train
+2454,Mobile App Development with Flutter,positive,train
+2454,Data Visualization with Power BI,negative,train
+2455,Agile Project Management,positive,train
+2455,Intro to AI Ethics,neutral,test
+2455,Deep Learning Fundamentals,neutral,train
+2455,Software Engineering Principles,positive,train
+2455,Data Visualization with Power BI,negative,train
+2455,Natural Language Processing,positive,train
+2456,Python for Data Science,negative,train
+2456,Software Engineering Principles,positive,train
+2456,Machine Learning with TensorFlow,negative,train
+2456,Python for Data Science,positive,test
+2457,Agile Project Management,positive,train
+2457,Computer Networks 101,neutral,train
+2457,Database Systems Advanced,positive,train
+2457,Natural Language Processing,positive,test
+2457,Intro to AI Ethics,negative,train
+2457,UI/UX Design Basics,negative,train
+2458,Cybersecurity Introduction,neutral,train
+2458,Natural Language Processing,neutral,train
+2458,Machine Learning with TensorFlow,positive,train
+2458,Python for Data Science,negative,train
+2458,Database Systems Advanced,negative,train
+2459,Intro to AI Ethics,negative,train
+2459,Agile Project Management,neutral,train
+2459,Natural Language Processing,negative,train
+2460,React Frontend Mastery,negative,train
+2460,Intro to AI Ethics,positive,train
+2460,Machine Learning with TensorFlow,positive,train
+2460,Big Data Analytics,negative,train
+2460,Python for Data Science,neutral,test
+2460,Digital Marketing Strategy,positive,train
+2461,Computer Networks 101,positive,train
+2461,Cloud Computing Essentials,negative,train
+2461,Data Visualization with Power BI,positive,test
+2461,Computer Networks 101,neutral,train
+2461,Deep Learning Fundamentals,neutral,train
+2461,Database Systems Advanced,negative,train
+2462,Agile Project Management,neutral,train
+2462,Cybersecurity Introduction,neutral,train
+2462,Python for Data Science,positive,test
+2462,UI/UX Design Basics,positive,train
+2463,Data Visualization with Power BI,positive,train
+2463,Machine Learning with TensorFlow,neutral,train
+2463,UI/UX Design Basics,neutral,train
+2463,Cybersecurity Introduction,positive,train
+2464,Python for Data Science,negative,train
+2464,React Frontend Mastery,negative,test
+2464,Machine Learning with TensorFlow,neutral,train
+2464,Deep Learning Fundamentals,neutral,train
+2464,Computer Networks 101,neutral,test
+2464,Cloud Computing Essentials,positive,train
+2465,Database Systems Advanced,negative,train
+2465,React Frontend Mastery,positive,train
+2465,Data Visualization with Power BI,negative,train
+2465,Deep Learning Fundamentals,positive,train
+2465,Cybersecurity Introduction,neutral,train
+2466,Data Visualization with Power BI,positive,train
+2466,Mobile App Development with Flutter,negative,train
+2466,Natural Language Processing,neutral,train
+2466,Big Data Analytics,positive,train
+2466,Machine Learning with TensorFlow,positive,train
+2467,Software Engineering Principles,neutral,train
+2467,Cloud Computing Essentials,negative,test
+2467,Web Development Bootcamp,negative,train
+2467,UI/UX Design Basics,negative,train
+2467,Web Development Bootcamp,positive,train
+2468,Digital Marketing Strategy,neutral,train
+2468,Natural Language Processing,neutral,train
+2468,Agile Project Management,neutral,test
+2468,Data Visualization with Power BI,negative,test
+2469,Computer Networks 101,positive,train
+2469,Cloud Computing Essentials,neutral,train
+2469,Java Programming Zero-to-Hero,neutral,train
+2469,Deep Learning Fundamentals,positive,train
+2469,UI/UX Design Basics,negative,train
+2470,UI/UX Design Basics,neutral,train
+2470,Computer Networks 101,positive,train
+2470,Digital Marketing Strategy,negative,train
+2470,Java Programming Zero-to-Hero,neutral,train
+2470,Database Systems Advanced,positive,train
+2470,Cloud Computing Essentials,negative,train
+2471,Python for Data Science,positive,train
+2471,Deep Learning Fundamentals,negative,test
+2471,Web Development Bootcamp,positive,train
+2471,Database Systems Advanced,negative,train
+2471,Software Engineering Principles,neutral,train
+2472,Intro to AI Ethics,neutral,train
+2472,Data Visualization with Power BI,negative,test
+2472,Deep Learning Fundamentals,positive,train
+2472,Mobile App Development with Flutter,neutral,train
+2472,Python for Data Science,positive,train
+2473,Big Data Analytics,positive,train
+2473,Python for Data Science,negative,train
+2473,Digital Marketing Strategy,positive,train
+2473,Software Engineering Principles,positive,train
+2473,Web Development Bootcamp,positive,train
+2473,Database Systems Advanced,neutral,train
+2474,Agile Project Management,positive,train
+2474,Web Development Bootcamp,negative,train
+2474,Software Engineering Principles,negative,train
+2474,Cloud Computing Essentials,neutral,train
+2474,Cybersecurity Introduction,neutral,test
+2475,Mobile App Development with Flutter,neutral,test
+2475,Cybersecurity Introduction,neutral,train
+2475,Big Data Analytics,positive,test
+2475,Intro to AI Ethics,negative,train
+2475,Python for Data Science,negative,train
+2476,Software Engineering Principles,negative,train
+2476,Intro to AI Ethics,negative,train
+2476,Java Programming Zero-to-Hero,negative,train
+2476,Digital Marketing Strategy,neutral,train
+2476,Cybersecurity Introduction,neutral,train
+2476,Computer Networks 101,positive,train
+2477,Cybersecurity Introduction,negative,train
+2477,Python for Data Science,positive,test
+2477,Natural Language Processing,positive,train
+2477,Computer Networks 101,neutral,train
+2477,Cloud Computing Essentials,positive,train
+2478,Natural Language Processing,neutral,train
+2478,Software Engineering Principles,positive,train
+2478,Mobile App Development with Flutter,negative,test
+2478,Digital Marketing Strategy,negative,train
+2478,Big Data Analytics,positive,train
+2479,Python for Data Science,positive,train
+2479,Machine Learning with TensorFlow,negative,train
+2479,Digital Marketing Strategy,positive,train
+2479,Digital Marketing Strategy,negative,train
+2480,Deep Learning Fundamentals,neutral,test
+2480,Data Visualization with Power BI,neutral,train
+2480,Software Engineering Principles,positive,train
+2480,Data Visualization with Power BI,negative,train
+2480,Natural Language Processing,negative,train
+2480,Intro to AI Ethics,positive,test
+2481,Machine Learning with TensorFlow,negative,test
+2481,UI/UX Design Basics,positive,train
+2481,Intro to AI Ethics,neutral,test
+2481,Computer Networks 101,positive,train
+2481,Java Programming Zero-to-Hero,positive,train
+2481,Data Visualization with Power BI,positive,test
+2482,Big Data Analytics,neutral,train
+2482,UI/UX Design Basics,neutral,train
+2482,Deep Learning Fundamentals,negative,train
+2482,Big Data Analytics,positive,train
+2482,Computer Networks 101,positive,train
+2484,Deep Learning Fundamentals,positive,train
+2484,Agile Project Management,neutral,test
+2484,Agile Project Management,neutral,train
+9110,Big Data Analytics,negative,test
+9110,Deep Learning Fundamentals,negative,train
+9110,Deep Learning Fundamentals,neutral,train
+9110,Intro to AI Ethics,positive,train
+9112,UI/UX Design Basics,neutral,test
+9112,Database Systems Advanced,neutral,train
+9112,UI/UX Design Basics,neutral,train
+9112,React Frontend Mastery,neutral,train
+9112,Database Systems Advanced,negative,train
+9113,Big Data Analytics,positive,train
+9113,Machine Learning with TensorFlow,neutral,train
+9113,Python for Data Science,positive,train
+9113,React Frontend Mastery,positive,train
+9113,Big Data Analytics,neutral,train
+9114,Deep Learning Fundamentals,neutral,train
+9114,Cloud Computing Essentials,neutral,train
+9114,Computer Networks 101,neutral,train
+9115,Big Data Analytics,negative,train
+9115,Deep Learning Fundamentals,negative,train
+9115,Natural Language Processing,neutral,train
+9115,Agile Project Management,negative,test
+9115,Computer Networks 101,neutral,train
+9115,Agile Project Management,positive,train
+9116,Java Programming Zero-to-Hero,negative,train
+9116,Java Programming Zero-to-Hero,neutral,train
+9116,Java Programming Zero-to-Hero,negative,train
+9116,Mobile App Development with Flutter,positive,train
+9116,Big Data Analytics,negative,test
+9116,Python for Data Science,positive,train
+9117,Machine Learning with TensorFlow,neutral,train
+9117,Database Systems Advanced,neutral,test
+9117,Database Systems Advanced,negative,train
+9117,Agile Project Management,negative,test
+9117,Big Data Analytics,negative,train
+9117,Java Programming Zero-to-Hero,negative,train
+9118,Software Engineering Principles,neutral,test
+9118,Machine Learning with TensorFlow,positive,test
+9118,Database Systems Advanced,neutral,train
+9118,Agile Project Management,positive,train
+9118,Digital Marketing Strategy,negative,test
+9118,Cybersecurity Introduction,negative,train
+9119,Web Development Bootcamp,negative,train
+9119,Agile Project Management,negative,train
+9119,Web Development Bootcamp,neutral,train
+9119,Cybersecurity Introduction,positive,train
+9120,Mobile App Development with Flutter,neutral,train
+9120,Big Data Analytics,neutral,test
+9120,Database Systems Advanced,negative,train
+9120,Data Visualization with Power BI,positive,test
+9120,Natural Language Processing,negative,test
+9121,Software Engineering Principles,positive,train
+9121,Java Programming Zero-to-Hero,neutral,train
+9121,Cybersecurity Introduction,positive,train
+9121,Big Data Analytics,neutral,train
+9121,Deep Learning Fundamentals,neutral,test
+9122,Data Visualization with Power BI,neutral,train
+9122,Machine Learning with TensorFlow,neutral,test
+9122,Database Systems Advanced,negative,train
+9122,Mobile App Development with Flutter,positive,train
+9122,Python for Data Science,positive,train
+9123,Intro to AI Ethics,negative,train
+9123,Java Programming Zero-to-Hero,neutral,test
+9123,Big Data Analytics,negative,test
+9123,React Frontend Mastery,positive,train
+9123,Computer Networks 101,negative,train
+9124,React Frontend Mastery,neutral,train
+9124,Deep Learning Fundamentals,positive,train
+9124,Java Programming Zero-to-Hero,neutral,test
+9124,Deep Learning Fundamentals,negative,train
+9124,Data Visualization with Power BI,positive,train
+9126,Web Development Bootcamp,negative,test
+9126,Deep Learning Fundamentals,positive,train
+9126,Agile Project Management,neutral,train
+9126,Data Visualization with Power BI,negative,train
+9126,Python for Data Science,positive,train
+9126,UI/UX Design Basics,neutral,test
+9127,Deep Learning Fundamentals,negative,train
+9127,Big Data Analytics,negative,test
+9127,Intro to AI Ethics,neutral,test
+9127,Big Data Analytics,negative,train
+9127,Machine Learning with TensorFlow,positive,train
+9128,Intro to AI Ethics,neutral,train
+9128,Machine Learning with TensorFlow,negative,test
+9128,React Frontend Mastery,positive,test
+9128,Java Programming Zero-to-Hero,positive,train
+9129,React Frontend Mastery,negative,test
+9129,Data Visualization with Power BI,neutral,train
+9129,Computer Networks 101,neutral,train
+9129,Computer Networks 101,positive,train
+9131,UI/UX Design Basics,neutral,train
+9131,Deep Learning Fundamentals,positive,train
+9131,Machine Learning with TensorFlow,neutral,train
+9131,Deep Learning Fundamentals,positive,train
+9131,Computer Networks 101,negative,train
+9132,Digital Marketing Strategy,neutral,train
+9132,Python for Data Science,negative,train
+9132,Software Engineering Principles,positive,test
+9132,Big Data Analytics,neutral,test
+9132,UI/UX Design Basics,neutral,train
+9133,Database Systems Advanced,positive,test
+9133,Computer Networks 101,negative,test
+9133,Java Programming Zero-to-Hero,negative,train
+9133,Big Data Analytics,neutral,train
+9133,Machine Learning with TensorFlow,neutral,train
+9134,Big Data Analytics,positive,train
+9134,Web Development Bootcamp,neutral,train
+9134,Web Development Bootcamp,neutral,train
+9134,Java Programming Zero-to-Hero,neutral,train
+9134,Java Programming Zero-to-Hero,positive,train
+9134,Java Programming Zero-to-Hero,negative,test
+9135,UI/UX Design Basics,positive,train
+9135,Digital Marketing Strategy,positive,train
+9135,React Frontend Mastery,negative,test
+9135,Natural Language Processing,positive,train
+9136,Mobile App Development with Flutter,neutral,train
+9136,Agile Project Management,neutral,train
+9136,Cloud Computing Essentials,neutral,train
+9136,Natural Language Processing,positive,train
+9136,Web Development Bootcamp,negative,train
+9137,Java Programming Zero-to-Hero,positive,train
+9137,Database Systems Advanced,neutral,train
+9137,Computer Networks 101,negative,train
+9138,Mobile App Development with Flutter,neutral,train
+9138,Deep Learning Fundamentals,neutral,train
+9138,Intro to AI Ethics,positive,train
+9138,Machine Learning with TensorFlow,positive,train
+9138,Agile Project Management,negative,train
+9138,Deep Learning Fundamentals,negative,train
+9139,Computer Networks 101,positive,train
+9139,Cloud Computing Essentials,negative,test
+9139,Python for Data Science,positive,test
+9139,Cybersecurity Introduction,neutral,train
+9140,Computer Networks 101,neutral,train
+9140,Mobile App Development with Flutter,neutral,train
+9140,Software Engineering Principles,neutral,test
+9140,Computer Networks 101,neutral,train
+9141,Intro to AI Ethics,negative,test
+9141,Python for Data Science,positive,train
+9141,React Frontend Mastery,neutral,train
+9141,Cloud Computing Essentials,neutral,test
+9142,Database Systems Advanced,neutral,train
+9142,Data Visualization with Power BI,negative,train
+9142,Data Visualization with Power BI,positive,train
+9142,Computer Networks 101,negative,test
+9143,Python for Data Science,neutral,test
+9143,Computer Networks 101,positive,train
+9143,Java Programming Zero-to-Hero,positive,train
+9143,Java Programming Zero-to-Hero,neutral,train
+9144,Software Engineering Principles,negative,train
+9144,Big Data Analytics,negative,train
+9144,Digital Marketing Strategy,negative,test
+9144,Machine Learning with TensorFlow,neutral,train
+9145,Natural Language Processing,neutral,train
+9145,Web Development Bootcamp,neutral,train
+9145,Cybersecurity Introduction,negative,train
+9145,Web Development Bootcamp,negative,train
+9145,Deep Learning Fundamentals,positive,test
+9146,Cybersecurity Introduction,negative,train
+9146,Data Visualization with Power BI,negative,train
+9146,Mobile App Development with Flutter,neutral,train
+9146,Python for Data Science,positive,test
+9146,Data Visualization with Power BI,positive,train
+9146,Java Programming Zero-to-Hero,neutral,train
+9147,Java Programming Zero-to-Hero,neutral,train
+9147,Web Development Bootcamp,negative,test
+9147,Cybersecurity Introduction,negative,train
+9147,Java Programming Zero-to-Hero,neutral,train
+9148,Python for Data Science,neutral,test
+9148,Python for Data Science,neutral,train
+9148,Web Development Bootcamp,negative,train
+9148,Deep Learning Fundamentals,positive,train
+9148,Digital Marketing Strategy,positive,train
+9149,Software Engineering Principles,positive,test
+9149,Software Engineering Principles,neutral,test
+9149,Computer Networks 101,neutral,train
+9149,Big Data Analytics,neutral,train
+9149,Digital Marketing Strategy,positive,train
+9150,Web Development Bootcamp,positive,test
+9150,Computer Networks 101,positive,train
+9150,Software Engineering Principles,negative,train
+9150,Software Engineering Principles,negative,test
+9151,Mobile App Development with Flutter,negative,train
+9151,Computer Networks 101,negative,test
+9151,Deep Learning Fundamentals,positive,train
+9151,Python for Data Science,negative,train
+9153,Deep Learning Fundamentals,negative,train
+9153,Data Visualization with Power BI,negative,train
+9153,Java Programming Zero-to-Hero,positive,train
+9153,Computer Networks 101,negative,train
+9153,Database Systems Advanced,positive,test
+9154,Data Visualization with Power BI,positive,train
+9154,Agile Project Management,positive,train
+9154,Computer Networks 101,negative,train
+9154,UI/UX Design Basics,neutral,train
+9154,React Frontend Mastery,neutral,train
+9155,Cybersecurity Introduction,neutral,train
+9155,Digital Marketing Strategy,neutral,train
+9155,Intro to AI Ethics,positive,train
+9155,Machine Learning with TensorFlow,positive,train
+9155,Data Visualization with Power BI,neutral,test
+9155,Mobile App Development with Flutter,neutral,train
+9156,Cybersecurity Introduction,neutral,test
+9156,Mobile App Development with Flutter,neutral,train
+9156,Computer Networks 101,positive,train
+9156,Agile Project Management,neutral,train
+9156,Data Visualization with Power BI,neutral,train
+9157,Database Systems Advanced,positive,test
+9157,Computer Networks 101,neutral,train
+9157,Python for Data Science,neutral,train
+9157,UI/UX Design Basics,negative,train
+9157,Intro to AI Ethics,positive,train
+9157,Machine Learning with TensorFlow,negative,test
+9161,Intro to AI Ethics,neutral,train
+9161,Database Systems Advanced,neutral,train
+9161,Intro to AI Ethics,positive,test
+9161,Big Data Analytics,positive,train
+9161,Deep Learning Fundamentals,negative,train
+9161,Deep Learning Fundamentals,negative,train
+9162,Web Development Bootcamp,neutral,train
+9162,Big Data Analytics,positive,train
+9162,Deep Learning Fundamentals,negative,train
+9162,Java Programming Zero-to-Hero,negative,train
+9163,Software Engineering Principles,negative,train
+9163,Agile Project Management,neutral,test
+9163,Computer Networks 101,negative,train
+9164,Python for Data Science,neutral,train
+9164,Web Development Bootcamp,neutral,test
+9164,React Frontend Mastery,neutral,train
+9164,Agile Project Management,neutral,train
+9165,Database Systems Advanced,positive,train
+9165,Deep Learning Fundamentals,neutral,train
+9165,Natural Language Processing,negative,train
+9165,UI/UX Design Basics,neutral,train
+9165,Web Development Bootcamp,positive,train
+9165,Big Data Analytics,negative,train
+9166,Computer Networks 101,positive,train
+9166,Digital Marketing Strategy,positive,train
+9166,Big Data Analytics,neutral,train
+9166,Machine Learning with TensorFlow,neutral,train
+9167,Database Systems Advanced,positive,train
+9167,Digital Marketing Strategy,negative,train
+9167,React Frontend Mastery,neutral,test
+9167,Data Visualization with Power BI,negative,train
+9167,Mobile App Development with Flutter,negative,test
+9168,Natural Language Processing,positive,train
+9168,Intro to AI Ethics,positive,train
+9168,Deep Learning Fundamentals,negative,test
+9168,Agile Project Management,positive,train
+9168,Mobile App Development with Flutter,negative,train
+9169,Digital Marketing Strategy,positive,train
+9169,Cybersecurity Introduction,neutral,train
+9169,Web Development Bootcamp,negative,train
+9169,Java Programming Zero-to-Hero,neutral,test
+9169,UI/UX Design Basics,neutral,train
+9169,Computer Networks 101,positive,train
+9170,Cloud Computing Essentials,negative,train
+9170,Agile Project Management,negative,train
+9170,Mobile App Development with Flutter,negative,test
+9170,Agile Project Management,negative,train
+9170,UI/UX Design Basics,neutral,train
+9171,Agile Project Management,negative,test
+9171,UI/UX Design Basics,positive,test
+9171,Digital Marketing Strategy,neutral,train
+9171,Cybersecurity Introduction,positive,train
+9171,Java Programming Zero-to-Hero,negative,train
+9171,Python for Data Science,positive,train
+9172,Digital Marketing Strategy,positive,train
+9172,Mobile App Development with Flutter,neutral,train
+9172,Web Development Bootcamp,positive,train
+9172,Database Systems Advanced,neutral,test
+9172,React Frontend Mastery,neutral,train
+9173,Agile Project Management,negative,train
+9173,Big Data Analytics,negative,train
+9173,Database Systems Advanced,positive,train
+9173,Cloud Computing Essentials,neutral,train
+9174,Software Engineering Principles,positive,train
+9174,Cybersecurity Introduction,neutral,train
+9174,React Frontend Mastery,positive,test
+9174,React Frontend Mastery,negative,train
+9174,Mobile App Development with Flutter,negative,test
+9175,Agile Project Management,negative,train
+9175,Agile Project Management,negative,train
+9175,Database Systems Advanced,positive,train
+9175,Python for Data Science,negative,train
+9175,Digital Marketing Strategy,neutral,train
+9176,Software Engineering Principles,neutral,train
+9176,Java Programming Zero-to-Hero,positive,train
+9176,Data Visualization with Power BI,negative,train
+9176,Python for Data Science,negative,train
+9176,React Frontend Mastery,positive,test
+9177,Machine Learning with TensorFlow,negative,train
+9177,Intro to AI Ethics,neutral,test
+9177,React Frontend Mastery,positive,test
+9177,Cybersecurity Introduction,negative,train
+9178,Digital Marketing Strategy,negative,test
+9178,Natural Language Processing,negative,train
+9178,Web Development Bootcamp,positive,train
+9178,Computer Networks 101,neutral,test
+9178,Data Visualization with Power BI,positive,test
+9179,Web Development Bootcamp,neutral,test
+9179,Mobile App Development with Flutter,negative,train
+9179,Big Data Analytics,negative,train
+9179,Deep Learning Fundamentals,neutral,train
+9180,Data Visualization with Power BI,negative,train
+9180,Mobile App Development with Flutter,neutral,test
+9180,Computer Networks 101,neutral,train
+9180,UI/UX Design Basics,positive,test
+9181,Cloud Computing Essentials,negative,train
+9181,Digital Marketing Strategy,positive,train
+9181,Big Data Analytics,negative,train
+9181,React Frontend Mastery,negative,test
+9181,Agile Project Management,neutral,train
+9182,Deep Learning Fundamentals,positive,train
+9182,Database Systems Advanced,negative,train
+9182,Intro to AI Ethics,neutral,train
+9182,Machine Learning with TensorFlow,neutral,test
+9182,Intro to AI Ethics,negative,train
+9183,Digital Marketing Strategy,neutral,train
+9183,Software Engineering Principles,negative,test
+9183,Intro to AI Ethics,positive,train
+9184,Web Development Bootcamp,negative,train
+9184,Web Development Bootcamp,negative,train
+9184,Software Engineering Principles,neutral,train
+9184,Data Visualization with Power BI,positive,train
+9184,Digital Marketing Strategy,negative,test
+9185,UI/UX Design Basics,negative,train
+9185,Agile Project Management,positive,train
+9185,Machine Learning with TensorFlow,positive,train
+9185,Machine Learning with TensorFlow,neutral,train
+9185,UI/UX Design Basics,negative,train
+9186,Web Development Bootcamp,positive,train
+9186,Java Programming Zero-to-Hero,positive,test
+9186,Big Data Analytics,negative,train
+9186,Web Development Bootcamp,positive,train
+9186,Java Programming Zero-to-Hero,positive,train
+9187,Digital Marketing Strategy,positive,train
+9187,Data Visualization with Power BI,positive,train
+9187,React Frontend Mastery,neutral,train
+9187,Mobile App Development with Flutter,positive,train
+9188,Digital Marketing Strategy,neutral,train
+9188,Digital Marketing Strategy,neutral,train
+9188,Machine Learning with TensorFlow,neutral,train
+9188,Cybersecurity Introduction,negative,train
+9188,Cybersecurity Introduction,neutral,train
+9188,Python for Data Science,negative,train
+9189,Cloud Computing Essentials,neutral,test
+9189,Deep Learning Fundamentals,neutral,train
+9189,Computer Networks 101,neutral,train
+9189,UI/UX Design Basics,negative,train
+9189,Web Development Bootcamp,positive,train
+9190,Data Visualization with Power BI,negative,train
+9190,UI/UX Design Basics,positive,train
+9190,UI/UX Design Basics,positive,train
+9190,Natural Language Processing,neutral,train
+9190,Intro to AI Ethics,neutral,test
+9191,Cloud Computing Essentials,positive,train
+9191,Cybersecurity Introduction,negative,train
+9191,React Frontend Mastery,positive,train
+9191,Big Data Analytics,positive,train
+9191,Database Systems Advanced,neutral,train
+9191,Software Engineering Principles,neutral,train
+9192,UI/UX Design Basics,positive,train
+9192,Java Programming Zero-to-Hero,positive,train
+9192,React Frontend Mastery,negative,train
+9192,Big Data Analytics,neutral,train
+9192,Python for Data Science,negative,test
+9193,Digital Marketing Strategy,negative,train
+9193,Deep Learning Fundamentals,positive,train
+9193,Data Visualization with Power BI,negative,test
+9193,Intro to AI Ethics,negative,train
+9193,Web Development Bootcamp,neutral,train
+9194,Machine Learning with TensorFlow,positive,train
+9194,Database Systems Advanced,negative,train
+9194,Natural Language Processing,positive,train
+9194,Digital Marketing Strategy,negative,train
+9194,Software Engineering Principles,positive,train
+9194,React Frontend Mastery,neutral,train
+9195,Software Engineering Principles,positive,train
+9195,UI/UX Design Basics,neutral,test
+9195,Cloud Computing Essentials,positive,train
+9195,Data Visualization with Power BI,neutral,train
+9195,Digital Marketing Strategy,neutral,train
+9195,UI/UX Design Basics,negative,train
+9196,Cybersecurity Introduction,positive,train
+9196,Deep Learning Fundamentals,neutral,test
+9196,Natural Language Processing,positive,train
+9196,Intro to AI Ethics,positive,train
+9196,UI/UX Design Basics,positive,train
+9196,Intro to AI Ethics,neutral,train
+9197,Agile Project Management,neutral,train
+9197,Computer Networks 101,neutral,train
+9197,UI/UX Design Basics,neutral,train
+9197,React Frontend Mastery,positive,test
+9197,Mobile App Development with Flutter,positive,train
+9197,Computer Networks 101,negative,test
+9198,Web Development Bootcamp,negative,test
+9198,Natural Language Processing,neutral,train
+9198,Digital Marketing Strategy,neutral,train
+9198,Natural Language Processing,positive,train
+9198,Python for Data Science,positive,test
+9199,Data Visualization with Power BI,positive,train
+9199,Database Systems Advanced,positive,train

@@ -1,0 +1,16 @@
+﻿texto,clase,n_comentarios,vector_nulo,Naive Bayes,SVM lineal (liblinear),SVM lineal (libsvm),Regresión Logística,"SVM lineal (liblinear), sin normalizar","SVM lineal (libsvm), sin normalizar","Regresión Logística, con L2",Azar,Clase mayoritaria,Búsqueda exacta
+amazing content structure,positive,62,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3064516129032258,0.0,0.0
+audio quality bad distract,negative,56,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2857142857142857,0.0,0.0
+average content,neutral,62,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.27419354838709675,0.0,0.0
+course okay,neutral,52,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3076923076923077,0.0,0.0
+excellent instructor clear explanation,positive,52,False,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.3076923076923077,0.0,0.0
+experience acceptable overall,neutral,48,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.375,0.0,0.0
+great course explanation style clear enjoyable,positive,57,False,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.3508771929824561,0.0,0.0
+instructor skip important topic,negative,57,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3157894736842105,0.0,0.0
+lack hand exercise ruin experience,negative,42,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.21428571428571427,0.0,0.0
+love assignment interactive,positive,53,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.33962264150943394,0.0,0.0
+neutral impression,neutral,58,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1896551724137931,0.0,0.0
+outdated content poor structure,negative,53,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3018867924528302,0.0,0.0
+pacing fast unclear,negative,44,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.29545454545454547,0.0,0.0
+practical easy follow,positive,54,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4074074074074074,0.0,0.0
+useful,neutral,57,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2807017543859649,0.0,0.0

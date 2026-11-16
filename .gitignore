@@ -1,0 +1,13 @@
+# --- Agregar al final de tu .gitignore ---
+__pycache__/
+*.pyc
+*.bak
+# Salidas generadas (se reproducen corriendo los scripts)
+salida_etapa5/
+salida_etapa4/
+salida_etapa2/
+salida_pipeline/
+# Corpus crudo (10 MB) y corpus derivados: no se suben; documenta su procedencia en el README
+Feedback_Training.csv
+corpus_general.csv
+*.npz

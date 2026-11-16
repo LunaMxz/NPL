@@ -1,0 +1,21 @@
+﻿tipo,modelo,n,mediana_ms,convergio,orientativo,alpha
+replicacion,Naive Bayes,645,0.0,True,True,
+replicacion,SVM lineal (liblinear),645,0.0,True,True,
+replicacion,SVM lineal (libsvm),645,0.0,True,True,
+replicacion,Regresión Logística,645,15.625,True,True,1.4548581191396853e-16
+replicacion,Naive Bayes,1290,0.0,True,True,
+replicacion,SVM lineal (liblinear),1290,15.625,True,True,
+replicacion,SVM lineal (libsvm),1290,0.0,True,True,
+replicacion,Regresión Logística,1290,15.625,True,True,1.4548581191396853e-16
+replicacion,Naive Bayes,2580,0.0,True,True,
+replicacion,SVM lineal (liblinear),2580,31.25,True,True,
+replicacion,SVM lineal (libsvm),2580,15.625,True,True,
+replicacion,Regresión Logística,2580,15.625,True,True,1.4548581191396853e-16
+submuestreo,Naive Bayes,163,0.0,True,False,
+submuestreo,SVM lineal (liblinear),163,0.0,True,False,
+submuestreo,SVM lineal (libsvm),163,0.0,True,False,
+submuestreo,Regresión Logística,163,15.625,True,False,5.643904532946615e-16
+submuestreo,Naive Bayes,645,0.0,True,False,
+submuestreo,SVM lineal (liblinear),645,0.0,True,False,
+submuestreo,SVM lineal (libsvm),645,0.0,True,False,
+submuestreo,Regresión Logística,645,15.625,True,False,5.643904532946615e-16

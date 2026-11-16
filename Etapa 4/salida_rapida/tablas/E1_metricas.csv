@@ -1,0 +1,11 @@
+﻿modelo,tipo,oficial,accuracy,precision,recall,f1,acc_textos,convergio,iteraciones,vectores_soporte,normalizado,n_entrenamiento,n_prueba,vocabulario
+Naive Bayes,modelo,True,1.0,1.0,1.0,1.0,1.0,True,,,False,645,162,75
+SVM lineal (liblinear),modelo,True,1.0,1.0,1.0,1.0,1.0,True,8.0,,True,645,162,75
+SVM lineal (libsvm),modelo,True,1.0,1.0,1.0,1.0,1.0,True,28.0,25.0,True,645,162,75
+Regresión Logística,modelo,True,1.0,1.0,1.0,1.0,1.0,True,16.0,,False,645,162,75
+"SVM lineal (liblinear), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,12.0,,False,645,162,75
+"SVM lineal (libsvm), sin normalizar",modelo,False,1.0,1.0,1.0,1.0,1.0,True,48.0,79.0,False,645,162,75
+"Regresión Logística, con L2",modelo,False,1.0,1.0,1.0,1.0,1.0,True,11.0,,True,645,162,75
+Azar,referencia,False,0.30864197530864196,0.30972081503996396,0.3119047619047619,0.3082733763347791,0.30154825566590276,,,,,645,162,75
+Clase mayoritaria,referencia,False,0.345679012345679,0.11522633744855966,0.3333333333333333,0.17125382262996944,0.3333333333333333,,,,,645,162,75
+Búsqueda exacta,referencia,False,1.0,1.0,1.0,1.0,1.0,,,,,645,162,75
